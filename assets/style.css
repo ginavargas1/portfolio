@@ -47,6 +47,17 @@
 
 }
 
+.home {
+    display: flex;
+    background: url("../img/landing.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
