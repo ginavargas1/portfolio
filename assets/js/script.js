@@ -5,5 +5,10 @@ $(document).ready(function() {
         } else {
             $('.navbar').removeClass("sticky")
         }
+    });
+
+    //toggole menu/navbar script 
+    $('menu-btn').click(function() {
+        $('.navbar .menu').toggle('');
     })
-})
+});
